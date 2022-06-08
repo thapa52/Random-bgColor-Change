@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.bg-color{
+    border: 1px solid #000;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bg-color-change{
+    background-image: url('/images/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.bg-change-btn{
+    border:3px solid #000;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 16px 20px;
+}
+
+.bg-change-btn:hover{
+    background: none;
+    color: #000;
+}
